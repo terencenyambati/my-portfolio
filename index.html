@@ -2,45 +2,120 @@
 <html>
 
 <head>
-    <title>My Portfolio</title>
+    <title>Terence | Developer Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+    <nav class="navbar">
+
+    <h2 class="logo">Terence</h2>
+
+    <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+
+</nav>
+
     <div class="container">
 
+        <!-- HERO SECTION -->
         <h1>Terence Nyambati</h1>
-        <p class="subtitle">Aspiring Web Developer & Cybersecurity Learner</p>
+        <a href="cv.pdf" download class="cv-button">
+            Download CV
+        </a>
 
+        <p class="subtitle">
+            Aspiring Web Developer | Cybersecurity Learner
+        </p>
+
+        <img src="profile.jpg" class="profile-pic" alt="My photo">
+
+        <button onclick="alert('Thanks for visiting my portfolio!')">
+            Contact Me
+        </button>
+
+        <!-- ABOUT -->
         <div class="card">
             <h2>About Me</h2>
             <p>
                 I am learning web development and cybersecurity.
-                I enjoy building simple projects and improving my coding skills every day.
+                I enjoy building projects and improving my coding skills step by step.
             </p>
         </div>
 
+        <!-- SKILLS -->
         <div class="card">
             <h2>Skills</h2>
+
             <ul>
                 <li>HTML (beginner)</li>
-                <li>CSS (learning)</li>
+                <li>CSS (beginner)</li>
                 <li>JavaScript (learning)</li>
                 <li>Git & GitHub (learning)</li>
             </ul>
         </div>
 
+        <!-- PROJECTS -->
         <div class="card">
             <h2>Projects</h2>
-            <p>
-                My first project is this portfolio website built using HTML and CSS.
-            </p>
+
+            <div class="project">
+                <h3>Portfolio Website</h3>
+                <p>My first responsive portfolio built using HTML & CSS.</p>
+            </div>
+
+            <div class="project">
+                <h3>More Coming Soon</h3>
+                <p>I am currently learning JavaScript to build more projects.</p>
+            </div>
+            
+            <div class="project">
+                     <h3>Simple Calculator</h3>
+                     <p>A JavaScript calculator I will build next.</p>
+                     <a href="calculator/index.html" target="_blank" style="color:#38bdf8;">
+                          View Live Calculator
+                     </a>
+                     <div class="project">
+                     <h3>My GitHub</h3>
+                     <p>Check my coding projects and progress.</p>
+
+                     <a href="https://github.com/terencenyambati" target="_blank">
+                         Visit GitHub
+                     </a>
+</div>
+            </div>
+
         </div>
 
-        <button onclick="alert('Thanks for visiting my portfolio!')">
-            Contact Me
-        </button>
+        <!-- CONTACT -->
+        <div class="card">
+            <h2>Contact</h2>
+
+            <p>Email: terencenyambati@gmail.com</p>
+
+            <a href="mailto:terencenyambati@gmail.com" style="color:#38bdf8;">
+                Send Me an Email
+            </a>
+            <p>
+        GitHub:
+            <a href="https://github.com/terencenyambati" target="_blank">
+                 github.com/terencenyambati
+            </a>
+        </p>
+
+        <p>
+            LinkedIn:
+            <a href="https://linkedin.com" target="_blank">
+                 My LinkedIn
+            </a>
+        </p>
+        
+        </div>
 
     </div>
 
